@@ -24,5 +24,5 @@ export async function signInUser(prevState: unknown, formData: FormData) {
 // Sign user out
 export async function signOutUser() {
   await signOut();
-  return { success: true, message: "Successfully signed out" };
+  // return { success: true, message: "Successfully signed out" };
 }
